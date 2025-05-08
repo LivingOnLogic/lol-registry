@@ -1,13 +1,13 @@
-# 🧾 lol-registry
+# 🧾 buy-registry
 
-**Living On Logic MCP Registry Explorer**  
+**MCP Registry Explorer**  
 A modular, verifiable, and developer-friendly interface to discover and interact with on-chain MCP servers powering agent-based applications.
 
 ---
 
-## 🚀 What is `lol-registry`?
+## 🚀 What is `buy-registry`?
 
-`lol-registry` is the official registry explorer of the **Living On Logic** protocol. It visualizes and interacts with modular servers (MCPs) — the building blocks of autonomous agents — making it easy for developers, curators, and users to:
+`buy-registry` is the official registry explorer. It visualizes and interacts with modular servers (MCPs) — the building blocks of autonomous agents — making it easy for developers, curators, and users to:
 
 - Explore registered MCPs across categories
 - Verify module metadata and signatures
@@ -41,7 +41,7 @@ A modular, verifiable, and developer-friendly interface to discover and interact
 
 ## 📸 Preview
 
-![lol-registry preview](./public/preview.png)
+![buy-registry preview](./public/preview.png)
 
 ---
 
@@ -62,8 +62,8 @@ A modular, verifiable, and developer-friendly interface to discover and interact
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/LivingOnLogic/lol-registry.git
-cd lol-registry
+git clone https://github.com/buyproject/buy-registry.git
+cd buy-registry
 ```
 
 ### 2. Install dependencies
@@ -77,7 +77,7 @@ npm install
 Create `.env.local`:
 
 ```env
-NEXT_PUBLIC_REGISTRY_URL=https://registry.livingonlogic.xyz
+NEXT_PUBLIC_REGISTRY_URL=https://registry.buyproject.io
 NEXT_PUBLIC_CHAIN_ID=1
 ```
 
@@ -95,7 +95,7 @@ npm run dev
 - **Tailwind CSS** — design system + utility classes
 - **Wagmi / Viem** — EVM wallet toolkit
 - **Ethers.js** — on-chain interactions
-- **Living On Logic SDK** — agent-to-MCP tooling
+- **Buy Project SDK** — agent-to-MCP tooling
 - **IPFS / Arweave** — optional module metadata storage
 
 ---
